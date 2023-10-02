@@ -1,0 +1,60 @@
+*{padding: 0px; margin: 0px;}
+#navbar{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(194, 236, 226);}
+#navbar #links a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .70;
+    transition: 0.4s;
+}
+#navbar #links a:hover{ opacity: 1; transition: 0.4s;}
+#yt{background-color: red; color: black;}
+#fb{background-color: darkblue; color: white;}
+#dc{background-color: cadetblue; color: black;}
+#rd{background-color: chocolate; color: black;}
+#x{background-color: rgb(70, 70, 70); color: white;}
+.rounded{border-radius: 5px;}
+#links{display: inline;}
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+
+*{padding:0px; margin: 0px;}
+.banner{
+
+    background-image: url(cof.jpg);
+    background-color: aquamarine;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.banner h2{
+    color: rgb(118, 229, 252);
+    text-shadow: 1px 1px rgb(246, 246, 246);
+}
+.banner h2 span{
+    color: rgb(1, 22, 29);
+}
+.banner p{
+    color: rgb(213, 202, 214);
+    margin-bottom: 20px;
+}
+.banner a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: bisque;
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: black;
+
+}
